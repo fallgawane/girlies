@@ -1,0 +1,63 @@
+body{
+    background-color: rgba(129, 192, 201, 0.888);
+}
+
+.menu{
+    margin-right: 15px;
+}
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    left: 15px;
+}ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+img{
+ width: 150px;
+ height: 150px;
+ border-radius: 100%;
+
+}
+
+a:hover{
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+a{
+text-decoration: none;
+}
+/* GRAND TITRE */
+header{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.image>img{
+   
+    
+    height: 150px;
+    width:  150px;
+
+}
+.texte>p{
+    display: flex;
+    justify-content: center;
+    background-image: url(logo\ accueil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
