@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(129, 192, 201, 0.888);
+}
+
+.menu{
+    margin-right: 15px;
+}
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    left: 15px;
+    background-color:lightblue;
+    position: sticky;
+    border-radius: 15px;
+
+}ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+img{
+ width: 100px;
+ height: 100px;
+ border-radius: 100%;
+
+}
+
+a:hover{
+    color:blue;
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#par{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.personal{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    transform: none;
+    text-shadow: none;
+    gap: 30px;
+    padding: 30px;
+    margin: 30px;
+    animation: alternate-reverse;
+    position: -ms-page;
+    transition-property: inherit;
+    text-decoration-color: black
+}
+.personal>.pers>img{
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: nowrap;
+    font-style: normal;
+    appearance: 0,06px;
+    counter-reset: none;
+    text-decoration-style: dashed;
+    background-color: lightcyan;
+    padding: 30px;
+    margin: 30px;
+    text-decoration: overline;
+    column-gap: normal;
+    color: aliceblue;
+    pointer-events: fill;
+    cursor: alias;
+    background-position-y: bottom;
+    display: grid;
+}
+.personal>.pers>button>img{
+    width: 0px;
+    height: 0px;
+
+}
+.personal>.pers>h1{
+    font-size: 20px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    animation: alternate;
+
+}
+.personal>.pers>h2{
+    font-size: 20px;
+    color: grey;
+
+}
+.personal>.pers>p{
+    animation: forwards;
+    transform: rotateX('angle');
+    padding: 10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-decoration-color: cornflowerblue;
+    will-change: contents;
+
+}
+.pers > #cont{
+    font-size: 35px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    margin: 20px ;
+    color: white;
+}
+
