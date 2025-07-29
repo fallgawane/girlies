@@ -8,7 +8,7 @@ img {
 h1{
     display: flex;
     justify-content: center;
-    color: white;
+    color: black;
     text-align: center;
     
 }
@@ -23,7 +23,7 @@ h1{
 p{
     display: flex;
     justify-content:center;
-    color:rgb(245, 240, 240) ;
+    color:black ;
     text-align: center;
 }
 .heur{
@@ -47,12 +47,12 @@ p{
 }.ta:hover{
     transform: scale(1.1);
     transition: 2s;
-    background-color: rgb(69, 166, 188);
+    background-color: rgba(129, 192, 201, 0.888);
 }
 
-
 body{
-    background-color:rgb(61, 160, 182);
+
+    background-color: rgba(129, 192, 201, 0.888);
 }
 h2{
     color: rgb(9, 9, 9);
@@ -72,7 +72,7 @@ h2{
     color: rgb(8, 30, 35);
 }
 footer{
-    color: black;
+    color: white;
     display: flex;
     align-items: center;
     margin: 20px 100px;
@@ -85,7 +85,7 @@ footer{
     padding-left: 20%;
     padding-right: 10%;
     gap: 150px;
-    background-color:rgb(61, 160, 182);
+   background-color: rgba(129, 192, 201, 0.888);
     color: white;
     border-radius: 5px;
 }iframe{
