@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    background-color: rgba(129, 192, 201, 0.888);
     align-items: baseline;
     animation: alternate-reverse;
      background-repeat: no-repeat;
@@ -23,8 +23,7 @@ body{
     animation: alternate-reverse;
     position: -ms-page;
     transition-property: inherit;
-    text-decoration-color: deepskyblue;
-    background-position-y: bottom;
+    text-decoration-color: black
 }
 .personal>.pers>img{
     width: 200px;
@@ -45,10 +44,7 @@ body{
     pointer-events: fill;
     cursor: alias;
     background-position-y: bottom;
-
-
-    
-
+    display: grid;
 }
 .personal>.pers>button>img{
     width: 0px;
@@ -68,7 +64,6 @@ body{
 }
 .personal>.pers>p{
     animation: forwards;
-    color: color(from color srgb r g b);
     transform: rotateX('angle');
     padding: 10px;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -76,5 +71,9 @@ body{
     will-change: contents;
 
 }
+.pers > #cont{
+    font-size: 35px;
+}
+
 
 

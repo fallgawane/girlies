@@ -1,0 +1,93 @@
+img {
+ width: 150px;
+ height: 150px;
+ 
+
+}
+/* GRAND TITRE */
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    
+}
+.serv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:  rgba(8, 13, 14, 0.888);
+}
+
+/* partie p */
+p{
+    display: flex;
+    justify-content:center;
+    color:rgb(245, 240, 240) ;
+    text-align: center;
+}
+.heur{
+    display: flex;
+    justify-content:center;
+    color: black;
+    text-align: center;
+}
+
+/* PARTIE INFO  SERVICE */
+.service .tas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    border-radius: 5px; 
+    padding: 2.5px;
+   border:solid;
+    font-size: 13px;
+    color:  rgb(213, 226, 228);
+    background-color: rgb(255, 255, 255);
+}.ta:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: rgb(69, 166, 188);
+}
+
+
+body{
+    background-color:rgb(61, 160, 182);
+}
+h2{
+    color: rgb(9, 9, 9);
+    text-align: center;
+    font-size: 20px;
+}img>.IM{
+    background-image: url("D7.jpg");
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    padding: 120px;
+}
+.rendez-vous{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(8, 30, 35);
+}
+footer{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 20px 100px;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-left: 20%;
+    padding-right: 10%;
+    gap: 150px;
+    background-color:rgb(61, 160, 182);
+    color: white;
+    border-radius: 5px;
+}iframe{
+    height: 200px;
+}
