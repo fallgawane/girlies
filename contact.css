@@ -8,7 +8,7 @@ img {
 h1{
     display: flex;
     justify-content: center;
-    color: rgba(2, 16, 34, 0.89);
+    color: white;
     text-align: center;
     
 }
@@ -18,76 +18,21 @@ h1{
     text-align: center;
     color:  rgba(8, 13, 14, 0.888);
 }
-.item{
-    display: flex;
-    gap: 20PX;
-    box-shadow: 5px 3px ;
 
-}
-.items{
-    font-size: 13px;
-    text-align: center;
-    padding: 30px;
-    box-shadow: 5px;
-    border-radius: 20px;
-}
 /* partie p */
 p{
     display: flex;
     justify-content:center;
-    color:blaCK ;
+    color:rgb(245, 240, 240) ;
     text-align: center;
 }
-
-/* parti work .items */
-.work{
-
-    justify-content: center;
-}
-/* parti .HEADER*/
-
-header {
- 
-  color: rgb(10, 10, 10);
-  padding: 20px;
-  text-align: center;
-  background-image: url("D7.jpg");
-  height: 300px;
-  width: 600%;
-  background-repeat: no-repeat;
-  display: flex;
-}
-/* PARTIE ITEM ITEMS */
-.item1{
-    gap: 10px;
-    display: grid;
-    grid-template-columns: 27% 27% 27%;
-    justify-content: center;
-    gap: 30PX;
-}
-.items{
-text-align: center;
-justify-content: center;
-box-shadow: 50px;
-border-radius: 5px;
-border:solid ,white;
-}
-
-header {
-  width: calc(500vh - 50px);
-  color: white;
-  padding: 20px;
-  text-align: center;
-
-}p{
+.heur{
     display: flex;
     justify-content:center;
     color: black;
     text-align: center;
 }
-.item1> .items{
-box-shadow: rgb(9, 9, 9)  10px 5px 3px ;
-}
+
 /* PARTIE INFO  SERVICE */
 .service .tas{
     display: grid;
@@ -98,7 +43,7 @@ box-shadow: rgb(9, 9, 9)  10px 5px 3px ;
    border:solid;
     font-size: 13px;
     color:  rgb(213, 226, 228);
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }.ta:hover{
     transform: scale(1.1);
     transition: 2s;
@@ -106,13 +51,7 @@ box-shadow: rgb(9, 9, 9)  10px 5px 3px ;
 }
 
 
-.items:hover{
-    transform: scale(1.1);
-    transition: 2s;
-    background-color: white;
-    color:rgb(8, 30, 35);
-
-}body{
+body{
     background-color:rgb(61, 160, 182);
 }
 h2{
@@ -131,4 +70,24 @@ h2{
     justify-content: center;
     text-align: center;
     color: rgb(8, 30, 35);
+}
+footer{
+    color: black;
+    display: flex;
+    align-items: center;
+    margin: 20px 100px;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-left: 20%;
+    padding-right: 10%;
+    gap: 150px;
+    background-color:rgb(61, 160, 182);
+    color: white;
+    border-radius: 5px;
+}iframe{
+    height: 200px;
 }
