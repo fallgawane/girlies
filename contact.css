@@ -4,6 +4,38 @@ img {
  
 
 }
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    left: 15px;
+    background-color:lightblue;
+    position: sticky;
+    border-radius: 15px;
+}ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;}
+
+img{
+ width: 100px;
+ height: 100px;
+ border-radius: 100%;
+
+}
+
+a:hover{
+    color:blue;
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+}
 /* GRAND TITRE */
 h1{
     display: flex;
