@@ -1,0 +1,134 @@
+img {
+ width: 150px;
+ height: 150px;
+ 
+
+}
+/* GRAND TITRE */
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgba(2, 16, 34, 0.89);
+    text-align: center;
+    
+}
+.serv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:  rgba(8, 13, 14, 0.888);
+}
+.item{
+    display: flex;
+    gap: 20PX;
+    box-shadow: 5px 3px ;
+
+}
+.items{
+    font-size: 13px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 5px;
+    border-radius: 20px;
+}
+/* partie p */
+p{
+    display: flex;
+    justify-content:center;
+    color:blaCK ;
+    text-align: center;
+}
+
+/* parti work .items */
+.work{
+
+    justify-content: center;
+}
+/* parti .HEADER*/
+
+header {
+ 
+  color: rgb(10, 10, 10);
+  padding: 20px;
+  text-align: center;
+  background-image: url("D7.jpg");
+  height: 300px;
+  width: 600%;
+  background-repeat: no-repeat;
+  display: flex;
+}
+/* PARTIE ITEM ITEMS */
+.item1{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    justify-content: center;
+    gap: 30PX;
+}
+.items{
+text-align: center;
+justify-content: center;
+box-shadow: 50px;
+border-radius: 5px;
+border:solid ,white;
+}
+
+header {
+  width: calc(500vh - 50px);
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}p{
+    display: flex;
+    justify-content:center;
+    color: black;
+    text-align: center;
+}
+.item1> .items{
+box-shadow: white  10px 5px 3px ;
+}
+/* PARTIE INFO  SERVICE */
+.service .tas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    border-radius: 5px; 
+    padding: 2.5px;
+   border:solid;
+    font-size: 13px;
+    color:  rgb(213, 226, 228);
+    background-color: white;
+}.ta:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: rgb(69, 166, 188);;
+}
+
+
+.items:hover{
+    transform: scale(1.0);
+    transition: 2s;
+    background-color:rgb(213, 221, 223);
+    color:rgb(8, 30, 35);
+
+}body{
+    background-color:rgb(61, 160, 182);
+}
+h2{
+    color: rgb(9, 9, 9);
+    text-align: center;
+    font-size: 20px;
+}img>.IM{
+    background-image: url("D7.jpg");
+    width: 300px;
+    height: 400px;
+    justify-content: center;
+    padding: 120px;
+}
+.rendez-vous{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(8, 30, 35);
+}
