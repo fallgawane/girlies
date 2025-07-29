@@ -1,3 +1,48 @@
+body{
+    background-color: rgba(129, 192, 201, 0.888);
+}
+
+.menu{
+    margin-right: 15px;
+}
+.navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    left: 15px;
+    background-color:lightblue;
+    position: sticky;
+    border-radius: 15px;
+}ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+}
+img{
+ width: 100px;
+ height: 100px;
+ border-radius: 100%;
+
+}
+
+a:hover{
+    color:blue;
+    font-size: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* partie */
 img {
  width: 150px;
  height: 150px;
@@ -8,15 +53,16 @@ img {
 h1{
     display: flex;
     justify-content: center;
-    color: rgba(2, 16, 34, 0.89);
+    color: black; 
     text-align: center;
+    text-decoration: underline;
     
 }
 .serv{
     display: flex;
     justify-content: center;
     text-align: center;
-    color:  rgba(8, 13, 14, 0.888);
+    color:  white;
 }
 .item{
     display: flex;
@@ -35,7 +81,7 @@ h1{
 p{
     display: flex;
     justify-content:center;
-    color:blaCK ;
+    color:white ;
     text-align: center;
 }
 
@@ -75,7 +121,7 @@ border:solid ,white;
 
 header {
   width: calc(500vh - 50px);
-  color: white;
+  color: black;
   padding: 20px;
   text-align: center;
 
@@ -113,7 +159,7 @@ box-shadow: rgb(9, 9, 9)  10px 5px 3px ;
     color:rgb(8, 30, 35);
 
 }body{
-    background-color:rgb(61, 160, 182);
+    background-color: rgba(129, 192, 201, 0.888);
 }
 h2{
     color: rgb(9, 9, 9);
@@ -131,4 +177,15 @@ h2{
     justify-content: center;
     text-align: center;
     color: rgb(8, 30, 35);
+}p{
+    display: flex;
+    justify-content:center;
+    color: black ;
+    text-align: center;
+}footer{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 20px 100px;
+    justify-content: center;
 }
