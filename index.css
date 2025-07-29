@@ -65,3 +65,9 @@ header{
 
 
 }
+footer{
+    justify-content: center;
+    display: flex;
+    margin: 20px ;
+    color: white;
+}
