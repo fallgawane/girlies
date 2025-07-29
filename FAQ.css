@@ -25,6 +25,9 @@ h2 {
   max-width: 800px;
   margin: 0 auto;
 }
+.faq-container>.faq-items1>select>option{
+  color: black;
+}
 
 .faq-items {
   background-color: #fff;
