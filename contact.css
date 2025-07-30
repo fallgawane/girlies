@@ -4,6 +4,9 @@ img {
  
 
 }
+.menu{
+    margin-right: 15px;
+}
 .navbar{
    
     display: flex;
@@ -20,8 +23,8 @@ img {
     list-style: none;
     gap: 10px;
     text-decoration: none;
-    align-items: center;}
-
+    align-items: center;
+}
 img{
  width: 100px;
  height: 100px;
@@ -35,6 +38,11 @@ a:hover{
     background-color: white;
     padding: 5px;
     border-radius: 15px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 /* GRAND TITRE */
 h1{
@@ -42,7 +50,7 @@ h1{
     justify-content: center;
     color: black;
     text-align: center;
-     text-decoration: underline;
+
     
 }
 .serv{
